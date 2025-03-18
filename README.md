@@ -10,7 +10,7 @@
 
 
 [![arXiv](https://img.shields.io/badge/cs.CV-2503.xxxxx-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org)
-[![GitHub](https://img.shields.io/badge/GitHub-FAVOR--Bench-blue?logo=github)](https://github.com/FAVOR-Bench/FAVOR-Bench.github.io)
+[![Dataset meta](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-FAVOR-blue)](https://huggingface.co/datasets/zl2048/FAVOR) 
 [![Static Badge](https://img.shields.io/badge/website-FAVOR--Bench-8A2BE2)](https://favor-bench.github.io/)
 
 
