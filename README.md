@@ -34,6 +34,16 @@ Multimodal Large Language Models (MLLMs) have shown remarkable capabilities in v
 
 ## Evaluate
 
+We give the example of evaluating Qwen2.5-VL on the close-ended tasks of FAVOR-Bench as follows:
+
+1. Download the [FAVOR-Bench videos](https://huggingface.co/datasets/zl2048/FAVOR) and put all the mp4 files in one directory (for example, `./test_videos`)
+2. Install the required dependencies and download checkpoints following the [official repo](https://github.com/QwenLM/Qwen2.5-VL).
+3. Run the inference code:
+```
+python inference_qa_qwen.py
+```
+Then the results
+
 
 ## 📈 Results
 
