@@ -42,7 +42,7 @@ We give the example of evaluating Qwen2.5-VL on the close-ended tasks of FAVOR-B
 ```
 python inference_qa_qwen.py
 ```
-Then the results
+Then the results will be written to a jsonl file in ./output_qa/ and the scores will be printed.
 
 
 ## 📈 Results
