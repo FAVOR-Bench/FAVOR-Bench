@@ -31,3 +31,45 @@ Multimodal Large Language Models (MLLMs) have shown remarkable capabilities in v
 <p align="center">
     <img src="./docs/tasks.png" width="90%">
 </p>
+
+
+## 📈 Results
+
+- **Model Comparision:**
+
+<p align="center">
+    <img src="./docs/results-1.png" width="96%">
+</p>
+
+- **Benchmark Comparison:**
+
+<p align="center">
+    <img src="./docs/compare.png" width="96%">
+</p>
+
+
+- **Benchmark Statistics:**
+
+<p align="center">
+    <img src="./docs/statistics-1.png" width="96%">
+</p>
+Data statistics of FAVOR-Bench. Left: Task type distribution across close-ended and open-ended evaluation in FAVOR-Bench. Middle: Distribution of motion numbers (motion sequence length) per video. Right: The word cloud statistics of motion vocabularies in FAVOR-Bench.
+<p align="center">
+    <img src="./docs/statistics-2.png" width="96%">
+</p>
+More data statistics of FAVOR-Bench. Left: Index distribution of correct answers for the close-ended tasks. For example, "(1)" indicates that the correct option is ranked first. Middle: Video duration distribution of FAVOR-Bench. Right: Question number distribution for videos of FAVOR-Bench.
+
+## Citation
+
+If you find our work helpful for your research, please consider citing our work.
+
+```bibtex
+@misc{tu2025favor,
+      title={FAVOR-Bench: A Comprehensive Benchmark for Fine-Grained Video Motion Understanding},
+      author={Chongjun Tu and Lin Zhang and Pengtao Chen and Peng Ye and Xianfang Zeng and Wei Cheng and Gang Yu and Tao Chen},
+      year={2025},
+      eprint={2503.14935},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
