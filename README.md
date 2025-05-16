@@ -20,7 +20,7 @@
 
 ## 🔥 News
 
-* **`2025.03.19`** 🌟 We released Favor-Bench, a new benchmark for fine-grained video motion understanding!
+* **`2025.03.19`** 🌟 We released Favor-Bench, a new benchmark for fine-grained video motion understanding that spans both ego-centric and third-person perspectives with comprehensive evaluation including both close-ended QA tasks and open-ended descriptive tasks!
 
 ## Introduction
 
