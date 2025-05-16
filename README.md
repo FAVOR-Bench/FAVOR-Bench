@@ -34,6 +34,7 @@ Multimodal Large Language Models (MLLMs) have shown remarkable capabilities in v
 
 ## Evaluate
 
+### Close-ended tasks
 We give the example of evaluating Qwen2.5-VL on the close-ended tasks of FAVOR-Bench as follows:
 
 1. Download the [FAVOR-Bench videos](https://huggingface.co/datasets/zl2048/FAVOR) and put all the mp4 files in one directory (for example, `./test_videos`)
@@ -43,6 +44,24 @@ We give the example of evaluating Qwen2.5-VL on the close-ended tasks of FAVOR-B
 python inference_qa_qwen.py
 ```
 Then the results will be written to a jsonl file in `./output_qa/` and the scores will be printed.
+
+### LLM-free evaluation
+We give the example of LLM-free evaluation as follows:
+
+1. Prepare the necessary environments. nltk and sentence-transformers are needed
+```
+pip install sentence-transformers nltk
+```
+2. Enter the folder
+```
+cd LLM-free
+```
+3. Run the `LLM-free_step1_extract.ipynb` notebook, then extract results will be generated.
+4. Run the compare code, then the scores will be generated.
+```
+python LLM-free_step2_compare.py
+```
+
 
 
 ## 📈 Results
