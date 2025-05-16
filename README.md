@@ -29,7 +29,7 @@ Multimodal Large Language Models (MLLMs) have shown remarkable capabilities in v
 ## Evaluation Tasks
 
 <p align="center">
-    <img src="./docs/tasks.png" width="90%">
+    <img src="./docs/task.png" width="90%">
 </p>
 
 ## Evaluate
@@ -50,7 +50,7 @@ Then the results will be written to a jsonl file in `./output_qa/` and the score
 - **Model Comparision:**
 
 <p align="center">
-    <img src="./docs/results-1.png" width="96%">
+    <img src="./docs/results-.png" width="96%">
 </p>
 
 - **Benchmark Comparison:**
