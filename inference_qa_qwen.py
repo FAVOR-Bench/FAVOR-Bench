@@ -51,6 +51,7 @@ if __name__ == "__main__":
         for question in item['questions']:
             task_type = question['task_type']
             correct_answer = question['correct_answer']
+            options = question['options']
             prompt = f"Carefully watch the video and pay attention to temporal dynamics in this video, focusing on the camera motions, actions, activities, and interactions. Based on your observations, select the best option that accurately addresses the question.\n{question['question']}\nYou can only response with the answer among {question['options']}"
 
             messages = [
@@ -86,10 +87,21 @@ if __name__ == "__main__":
             )
             output_text = output_text[0]
             
-            if correct_answer.lower() in output_text.lower():
-                judge = True
+            containing_options = [opt for opt in options if opt != correct_answer and correct_answer in opt]
+
+            if not containing_options:
+                if correct_answer.lower() in output_text.lower():
+                    judge = True
+                else:
+                    judge = False
             else:
-                judge = False
+                if correct_answer.lower() in output_text.lower():
+                    judge = True
+                    for option in containing_options:
+                        if option.lower() in output_text.lower():
+                            judge = False
+                else:
+                    judge = False
             
             value_list.append({'task_type':task_type, 'correct_answer':correct_answer, 'output':output_text, 'judge':judge})
 
