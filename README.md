@@ -38,9 +38,12 @@ Multimodal Large Language Models (MLLMs) have shown impressive video content und
 
 Our dataset is under the CC-BY-NC-SA-4.0 license.
 
-FAVOR-Bench is only used for academic research. Commercial use in any form is prohibited. We do not own the copyright of any raw video files.
+If you need to access and use our dataset, you must understand and agree: **This dataset is for research purposes only and cannot be used for any commercial or other purposes. The user assumes all effects arising from any other use and dissemination.**
 
-If there is any infringement in FAVOR-Bench, please contact zhangl22@m.fudan.edu.cn or directly raise an issue, and we will remove it immediately.
+We do not own the copyright of any raw video files. Currently, we provide video access to researchers under the condition of acknowledging the above license. For the video data used, we respect and acknowledge any copyrights of the video authors. Therefore, for the TV series and animations used in the dataset, we have applied several preprocessing steps to minimize any potential impact on the original copyrights. These include reducing video resolution, segmenting videos into short clips (less than 10 seconds), and applying dimension adjustments.
+
+If there is any infringement in FAVOR-Bench, please contact zhangl22@m.fudan.edu.cn or directly raise an issue. If necessary, we will replace the contested videos with sparsely sampled frame sets at adjusted resolutions. In cases where even frame retention is not permitted, we will maintain the annotation files while replacing the video content with meta-information or seeking alternative sources that are more reliable and risk-free.
+
 
 ### Close-ended tasks
 We give the example of evaluating Qwen2.5-VL on the close-ended tasks of FAVOR-Bench as follows:
