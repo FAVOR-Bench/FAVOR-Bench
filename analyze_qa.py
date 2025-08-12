@@ -11,7 +11,7 @@ def analyze(input_file):
         "SAD":[0,1662],
         "MAD":[0,1205],
         "CM":[0,1075],
-        "NSA":[0,64]
+        "NSM":[0,64]
     }
     with open(input_file, 'r') as f:
         for line in f:
